@@ -2,7 +2,7 @@ var map = L.map('map').setView([37.7, -122.4], 10);
 
   // load a tile layer
 L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map tiles by Stamen Design, under CC BY 3.0.',
+        attribution: 'Map tiles by OpenStreetMap contributors',
 	minZoom: 0,
 	maxZoom: 20,
 }).addTo(map);
