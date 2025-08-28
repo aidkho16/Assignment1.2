@@ -8,7 +8,7 @@ L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // load GeoJSON from an external file
-  $.getJSON("https://raw.githubusercontent.com/orhuna/WebGIS_SLU_M1/refs/heads/main/Module%201/Assignment%201/data/sf_crime.geojson",function(data){
+  $.getJSON("https://raw.githubusercontent.com/aidkho16/Assignment1.2/refs/heads/main/sf_crime.geojson",function(data){
     var ratIcon = L.icon({
     iconUrl: 'https://static.thenounproject.com/png/3084354-200.png',
     iconSize: [50,40]
